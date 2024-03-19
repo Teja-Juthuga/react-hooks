@@ -93,8 +93,8 @@ export function DisplayUserData() {
                                 <option> Select Your City </option>
                                 <option value="Kakinada">Kakinada </option>
                                 <option value="Rajahumdry">Rajahumdry </option>
-                                <option value="Ravualapalem">
-                                    Ravualapalem{" "}
+                                <option value="Ravulapalem">
+                                    Ravulapalem{" "}
                                 </option>
                                 <option value="Vizag">Vizag </option>
                             </select>
