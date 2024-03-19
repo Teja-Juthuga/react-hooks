@@ -8,11 +8,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 
 import { UseStateExample } from './components/useState/useState';
+import { DisplayUserData } from './components/useState/dataGathering';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <UseStateExample />
+    <DisplayUserData />
   </React.StrictMode>
 );
 
