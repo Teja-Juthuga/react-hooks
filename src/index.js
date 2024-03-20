@@ -10,10 +10,12 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import { UseStateExample } from './components/useState/useState';
 import { DisplayUserData } from './components/useState/dataGathering';
 
+import Nasa from './components/useEffect/nasa/nasa'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <DisplayUserData />
+    <Nasa />
   </React.StrictMode>
 );
 

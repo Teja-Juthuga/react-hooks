@@ -8,7 +8,7 @@ export function DisplayUserData() {
     });
 
     const [updatedData, setUpdatedData] = useState({
-        name: "",
+        name: "Ammilee",
         age: 0,
         city: ""
     });
@@ -57,7 +57,7 @@ export function DisplayUserData() {
                     <dl>
                         <dd>
                             <b> Name: </b>{" "}
-                            <input type="text" className="form form-control" onChange={handleNameChange}/>
+                            <input type="text" className="form form-control" value={data.name} onChange={handleNameChange}/>
                         </dd>
                         {/* <dd>
                             <b> Gender: </b>
