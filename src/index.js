@@ -7,15 +7,19 @@ import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
+
 import { UseStateExample } from './components/useState/useState';
 import { DisplayUserData } from './components/useState/dataGathering';
 
 import Nasa from './components/useEffect/nasa/nasa'
+import { Shopper } from './components/useEffect/fakestore/fakestore';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Nasa />
+    <Shopper />
   </React.StrictMode>
 );
 
